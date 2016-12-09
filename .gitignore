@@ -1,0 +1,9 @@
+/node_modules
+/public/storage
+/vendor
+/packages
+/.idea
+Homestead.json
+Homestead.yaml
+/bootstrap/cache
+/*.lock
