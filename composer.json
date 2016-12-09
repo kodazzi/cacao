@@ -1,0 +1,23 @@
+{
+  "name": "kodazzi/cacao",
+  "description": "CMA With Laravel",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jorge Gaitan",
+      "email": "jgaitan@kodazzi.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "classmap": [
+      "database"
+    ],
+    "psr-4": {
+      "App\\": "app/",
+      "Kodazzi\\Cacao\\": "packages/kodazzi/cacao/src"
+    }
+  }
+}
